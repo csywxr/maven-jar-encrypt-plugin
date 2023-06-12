@@ -1,9 +1,13 @@
 # maven-jar-encrypt-plugin是一款class加密maven插件，通过在工程目录中引入maven-jar-encrypt-plugin即可实现class文件的加密.
+
 maven-jar-encrypt-plugin是采用jvmti的agent，实现对class文件的加密和解密
+
 使用方式如下：
 
 <plugin>
+  
                 <groupId>com.encrypt.plugin</groupId>
+  
                 <artifactId>maven-jar-encrypt-plugin</artifactId>
                 <version>1.0-SNAPSHOT</version>
                 <configuration>
