@@ -4,8 +4,7 @@ maven-jar-encrypt-plugin是采用jvmti的agent，实现对class文件的加密�
 
 使用方式如下：
 
-<plugin>
-  
+          <plugin>
                 <groupId>com.encrypt.plugin</groupId>
   
                 <artifactId>maven-jar-encrypt-plugin</artifactId>
@@ -22,5 +21,8 @@ maven-jar-encrypt-plugin是采用jvmti的agent，实现对class文件的加密�
                 </configuration>
             </plugin>
  jar：定义需要加密的目标jar包：
+ 
  include: 定义需要包含的类，支持正则表达式
+ 
  exclude: 定义需要排除的类
+ 
